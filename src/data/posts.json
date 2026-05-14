@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "diferencias-hipotiroidismo-hipertiroidismo",
+    "titulo": "Diferencias entre hipotiroidismo e hipertiroidismo: cómo saber qué le pasa a tu tiroides",
+    "resumen": "Conoce los síntomas y exámenes clave para identificar problemas tiroideos a tiempo.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/07/familia01.jpg",
+    "fecha": "2026-03-12",
+    "categoria": "Endocrinología",
+    "contenido": "La tiroides es una glándula con forma de mariposa ubicada en el cuello que produce hormonas claves para tu metabolismo. Cuando produce muy pocas hormonas hablamos de hipotiroidismo, y cuando produce de más, hipertiroidismo.\n\nLos síntomas del hipotiroidismo más comunes son: cansancio, aumento de peso, piel seca, intolerancia al frío y caída del cabello. En el hipertiroidismo aparecen: pérdida de peso, palpitaciones, sudoración excesiva e insomnio.\n\nEl examen más importante es la TSH, complementado con T4 libre y T3. En Confialab puedes hacerte el perfil tiroideo completo en una sola visita."
+  },
+  {
+    "slug": "diferencia-colesterol-ldl-hdl",
+    "titulo": "Diferencia entre LDL y HDL: lo que debes saber para cuidar tu corazón",
+    "resumen": "El colesterol bueno y el malo no son iguales. Te explicamos cómo interpretar tu perfil lipídico.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/08/Analisis-de-laboratorio.jpg",
+    "fecha": "2026-02-20",
+    "categoria": "Cardiovascular",
+    "contenido": "El colesterol LDL es conocido como 'colesterol malo' porque se acumula en las arterias formando placas. El HDL, en cambio, es el 'bueno' que ayuda a remover el exceso.\n\nValores recomendados: LDL menor a 100 mg/dL, HDL mayor a 40 mg/dL en hombres y 50 mg/dL en mujeres, triglicéridos menor a 150 mg/dL.\n\nEl perfil lipídico requiere ayuno de 12 horas y debe complementarse con glucosa y presión arterial para evaluar el riesgo cardiovascular global."
+  },
+  {
+    "slug": "tipos-parasitos-intestinales-ninos",
+    "titulo": "Parásitos intestinales en niños: cómo identificarlos a tiempo",
+    "resumen": "Síntomas frecuentes y exámenes recomendados para detectar lombrices y otros parásitos.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/10/examenes-de-laboratorio-a-domicilio.jpg",
+    "fecha": "2026-01-15",
+    "categoria": "Pediatría",
+    "contenido": "Los síntomas más frecuentes son: dolor abdominal recurrente, falta de apetito, picor anal nocturno, bruxismo y, en casos avanzados, anemia y bajo peso.\n\nEl examen parasitológico seriado de tres muestras es el estándar para detectar la mayoría de parásitos. Para oxiuros se recomienda el test de Graham, que se toma al despertar antes del baño.\n\nLa desparasitación debe ser indicada por un médico tras confirmar el parásito específico."
+  },
+  {
+    "slug": "diabetes-resistencia-insulina",
+    "titulo": "Diabetes y resistencia a la insulina: ¿en qué consisten estos exámenes clave?",
+    "resumen": "Glucosa, HbA1c y curva de insulina: cuándo pedirlos y cómo interpretarlos.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/08/preguntas-frecuentes.jpg",
+    "fecha": "2025-12-10",
+    "categoria": "Endocrinología",
+    "contenido": "La glucosa en ayunas mayor a 126 mg/dL en dos mediciones diferentes confirma diabetes. La HbA1c refleja el promedio de glucosa de los últimos 3 meses; un valor mayor a 6.5% es diagnóstico de diabetes.\n\nLa resistencia a la insulina se evalúa con índice HOMA-IR, calculado a partir de glucosa e insulina basales. Es importante porque puede preceder a la diabetes en años.\n\nUn chequeo metabólico anual es clave especialmente si tienes antecedentes familiares u obesidad."
+  }
+]

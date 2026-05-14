@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pueblo-libre",
+    "nombre": "Confialab Pueblo Libre",
+    "direccion": "Av. Antonio José de Sucre 186",
+    "distrito": "Pueblo Libre, Lima",
+    "telefono": "(01) 304-0982",
+    "whatsapp": "51946161296",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Av.+Antonio+Jose+de+Sucre+186+Pueblo+Libre+Lima",
+    "horarios": {
+      "lunVie": { "open": "07:00", "close": "19:00" },
+      "sab": { "open": "07:00", "close": "13:00" },
+      "dom": null
+    },
+    "servicios": ["Análisis Clínicos", "Vacunación", "Bienestar", "A domicilio", "Ocupacional"],
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/07/00lab.jpg"
+  },
+  {
+    "id": "san-miguel",
+    "nombre": "Confialab San Miguel",
+    "direccion": "Av. La Marina 2545, 2do nivel",
+    "distrito": "San Miguel, Lima",
+    "telefono": "(01) 304-0982",
+    "whatsapp": "51946161296",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Av.+La+Marina+2545+San+Miguel+Lima",
+    "horarios": {
+      "lunVie": { "open": "07:00", "close": "18:00" },
+      "sab": { "open": "07:00", "close": "13:00" },
+      "dom": null
+    },
+    "servicios": ["Análisis Clínicos", "Bienestar", "Estacionamiento"],
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/10/laboratorio-clinico-confialab-referencia.jpg"
+  },
+  {
+    "id": "magdalena",
+    "nombre": "Confialab Magdalena",
+    "direccion": "Av. Brasil 3015",
+    "distrito": "Magdalena del Mar, Lima",
+    "telefono": "(01) 304-0982",
+    "whatsapp": "51946161296",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Av.+Brasil+3015+Magdalena+Lima",
+    "horarios": {
+      "lunVie": { "open": "07:00", "close": "18:00" },
+      "sab": { "open": "07:00", "close": "12:30" },
+      "dom": null
+    },
+    "servicios": ["Análisis Clínicos", "Vacunación", "A domicilio"],
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/10/examenes-de-laboratorio-a-domicilio.jpg"
+  }
+]

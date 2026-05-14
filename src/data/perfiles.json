@@ -1,0 +1,62 @@
+[
+  {
+    "codigo": "PERF-CHK",
+    "nombre": "Chequeo Básico Confialab",
+    "precio": 99,
+    "precioRegular": 134,
+    "descripcion": "Lo esencial para conocer tu estado de salud general.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/08/Analisis-de-laboratorio.jpg",
+    "examenes": ["HEM001", "BIO001", "BIO007", "BIO004"],
+    "tags": ["mas-pedido"]
+  },
+  {
+    "codigo": "PERF-CARDIO",
+    "nombre": "Perfil Cardiovascular",
+    "precio": 169,
+    "precioRegular": 211,
+    "descripcion": "Evalúa tu riesgo cardiovascular de forma integral.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/10/examenes-de-laboratorio-a-domicilio.jpg",
+    "examenes": ["BIO002", "BIO001", "BIO011", "HEM001"],
+    "tags": ["mas-pedido"]
+  },
+  {
+    "codigo": "PERF-TIROID",
+    "nombre": "Perfil Tiroideo Completo",
+    "precio": 119,
+    "precioRegular": 145,
+    "descripcion": "Evaluación completa de la función tiroidea.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/10/laboratorio-clinico-confialab-referencia.jpg",
+    "examenes": ["HOR001", "HOR002", "HOR003"],
+    "tags": []
+  },
+  {
+    "codigo": "PERF-FEM",
+    "nombre": "Perfil Bienestar Mujer",
+    "precio": 289,
+    "precioRegular": 363,
+    "descripcion": "Pensado para el cuidado integral de la mujer.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/07/familia01.jpg",
+    "examenes": ["HEM001", "BIO001", "BIO002", "HOR001", "HOR005", "BIO010"],
+    "tags": ["nuevo"]
+  },
+  {
+    "codigo": "PERF-MASC",
+    "nombre": "Perfil Bienestar Hombre",
+    "precio": 219,
+    "precioRegular": 273,
+    "descripcion": "Cuidado integral con foco en salud prostática.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/07/00lab.jpg",
+    "examenes": ["HEM001", "BIO001", "BIO002", "BIO003", "HOR006"],
+    "tags": []
+  },
+  {
+    "codigo": "PERF-PRENAT",
+    "nombre": "Perfil Prenatal",
+    "precio": 199,
+    "precioRegular": 252,
+    "descripcion": "Análisis recomendados durante el embarazo.",
+    "imagen": "https://confialab.com.pe/wp-content/uploads/2022/07/familia01.jpg",
+    "examenes": ["HEM001", "BIO001", "HEM003", "INM003", "INM004"],
+    "tags": []
+  }
+]

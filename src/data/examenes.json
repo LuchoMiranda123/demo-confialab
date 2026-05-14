@@ -1,0 +1,762 @@
+[
+  {
+    "codigo": "HEM001",
+    "nombre": "Hemograma Completo (CBC)",
+    "categoria": "hematologia",
+    "tipo": "analisis",
+    "precio": 28,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["mas-pedido", "rapido"],
+    "descripcion": "Análisis que evalúa los diferentes tipos de células sanguíneas: glóbulos rojos, glóbulos blancos y plaquetas.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Evitar ejercicio intenso 24h antes", "No haber donado sangre en los últimos 30 días"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta anemia, infecciones y enfermedades de la sangre.",
+    "cuandoPedirlo": "Chequeo preventivo, cansancio crónico, fiebre recurrente, hematomas frecuentes."
+  },
+  {
+    "codigo": "BIO001",
+    "nombre": "Glucosa en ayunas",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 18,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["mas-pedido", "rapido"],
+    "descripcion": "Mide el nivel de azúcar en sangre tras un período de ayuno.",
+    "preAnalitica": {
+      "ayuno": "8 a 12 horas",
+      "condiciones": ["No consumir azúcar ni café", "Puede beber agua"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta diabetes y prediabetes.",
+    "cuandoPedirlo": "Chequeo anual, antecedentes familiares de diabetes, sed excesiva."
+  },
+  {
+    "codigo": "BIO002",
+    "nombre": "Perfil Lipídico Completo",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 65,
+    "tiempoEntrega": "24 horas",
+    "tags": ["mas-pedido"],
+    "descripcion": "Evalúa colesterol total, HDL, LDL, VLDL y triglicéridos.",
+    "preAnalitica": {
+      "ayuno": "12 horas",
+      "condiciones": ["No consumir alcohol 48h antes", "Evitar comidas grasas el día anterior"],
+      "muestra": "Sangre venosa",
+      "volumen": "4 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Mide el riesgo cardiovascular.",
+    "cuandoPedirlo": "Chequeo cardiovascular, mayores de 35 años, antecedentes familiares."
+  },
+  {
+    "codigo": "BIO003",
+    "nombre": "Pruebas Hepáticas (Perfil Hepático)",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 70,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Incluye TGO, TGP, fosfatasa alcalina, bilirrubinas y proteínas.",
+    "preAnalitica": {
+      "ayuno": "8 horas",
+      "condiciones": ["No consumir alcohol 72h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "4 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Evalúa el funcionamiento del hígado.",
+    "cuandoPedirlo": "Sospecha de hepatitis, ictericia, control de medicamentos hepatotóxicos."
+  },
+  {
+    "codigo": "BIO004",
+    "nombre": "Creatinina sérica",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 18,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["rapido"],
+    "descripcion": "Indicador de la función renal.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Evitar carne roja en exceso 24h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Evalúa cómo trabajan tus riñones.",
+    "cuandoPedirlo": "Hipertensión, diabetes, control renal."
+  },
+  {
+    "codigo": "BIO005",
+    "nombre": "Urea",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 16,
+    "tiempoEntrega": "Mismo día",
+    "tags": [],
+    "descripcion": "Producto del metabolismo de proteínas, marcador renal.",
+    "preAnalitica": {
+      "ayuno": "8 horas",
+      "condiciones": ["Hidratarse normalmente"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Evalúa función renal y metabolismo proteico.",
+    "cuandoPedirlo": "Junto con creatinina para evaluar riñones."
+  },
+  {
+    "codigo": "BIO006",
+    "nombre": "Hemoglobina Glicosilada (HbA1c)",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 55,
+    "tiempoEntrega": "24 horas",
+    "tags": ["mas-pedido"],
+    "descripcion": "Promedio de glucosa de los últimos 3 meses.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones especiales"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Control de diabetes a largo plazo.",
+    "cuandoPedirlo": "Pacientes diabéticos en control trimestral."
+  },
+  {
+    "codigo": "HOR001",
+    "nombre": "TSH (Hormona Estimulante de Tiroides)",
+    "categoria": "hormonal",
+    "tipo": "analisis",
+    "precio": 45,
+    "tiempoEntrega": "24 horas",
+    "tags": ["mas-pedido"],
+    "descripcion": "Evalúa la función tiroidea.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Tomar muestra preferentemente en la mañana"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta hipotiroidismo e hipertiroidismo.",
+    "cuandoPedirlo": "Cansancio, aumento o pérdida de peso, alteraciones menstruales."
+  },
+  {
+    "codigo": "HOR002",
+    "nombre": "T4 Libre",
+    "categoria": "hormonal",
+    "tipo": "analisis",
+    "precio": 50,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Hormona tiroidea libre (no unida a proteínas).",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Evitar suplementos de biotina 72h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Confirma el diagnóstico de problemas tiroideos.",
+    "cuandoPedirlo": "Junto con TSH para evaluación tiroidea completa."
+  },
+  {
+    "codigo": "HOR003",
+    "nombre": "T3 Total",
+    "categoria": "hormonal",
+    "tipo": "analisis",
+    "precio": 50,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Triiodotironina, hormona tiroidea activa.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Evitar suplementos de biotina 72h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Complementa el panel tiroideo.",
+    "cuandoPedirlo": "Sospecha de hipertiroidismo."
+  },
+  {
+    "codigo": "HOR004",
+    "nombre": "Beta hCG cuantitativa",
+    "categoria": "hormonal",
+    "tipo": "analisis",
+    "precio": 60,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["rapido"],
+    "descripcion": "Prueba cuantitativa de embarazo en sangre.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Confirma embarazo y mide su evolución.",
+    "cuandoPedirlo": "Sospecha de embarazo, control de embarazo temprano."
+  },
+  {
+    "codigo": "HOR005",
+    "nombre": "Perfil Hormonal Femenino",
+    "categoria": "hormonal",
+    "tipo": "analisis",
+    "precio": 220,
+    "tiempoEntrega": "48 horas",
+    "tags": [],
+    "descripcion": "FSH, LH, Estradiol, Progesterona, Prolactina.",
+    "preAnalitica": {
+      "ayuno": "8 horas",
+      "condiciones": ["Tomar en día específico del ciclo según indicación médica"],
+      "muestra": "Sangre venosa",
+      "volumen": "5 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Evalúa el equilibrio hormonal femenino.",
+    "cuandoPedirlo": "Alteraciones menstruales, infertilidad, menopausia."
+  },
+  {
+    "codigo": "HOR006",
+    "nombre": "PSA Total",
+    "categoria": "hormonal",
+    "tipo": "analisis",
+    "precio": 65,
+    "tiempoEntrega": "24 horas",
+    "tags": ["mas-pedido"],
+    "descripcion": "Antígeno prostático específico, marcador de salud prostática.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["No tener relaciones sexuales 48h antes", "No realizarse tacto rectal 7 días antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detección temprana de problemas prostáticos.",
+    "cuandoPedirlo": "Hombres mayores de 45 años, control anual."
+  },
+  {
+    "codigo": "INM001",
+    "nombre": "Proteína C Reactiva (PCR)",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 30,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["rapido"],
+    "descripcion": "Marcador de inflamación aguda.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta inflamación o infección en el cuerpo.",
+    "cuandoPedirlo": "Fiebre, dolor articular, infecciones."
+  },
+  {
+    "codigo": "INM002",
+    "nombre": "Factor Reumatoideo",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 35,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Anticuerpo relacionado con artritis reumatoide.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Apoyo al diagnóstico de artritis reumatoide.",
+    "cuandoPedirlo": "Dolor articular crónico, rigidez matutina."
+  },
+  {
+    "codigo": "INM003",
+    "nombre": "VIH 1 y 2 (Anticuerpos)",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 55,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Detección de anticuerpos contra VIH 1 y 2.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Confidencialidad garantizada"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Tamizaje de VIH.",
+    "cuandoPedirlo": "Control preventivo, conducta de riesgo, embarazo."
+  },
+  {
+    "codigo": "INM004",
+    "nombre": "Hepatitis B (HBsAg)",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 45,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Antígeno de superficie de hepatitis B.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta infección activa por hepatitis B.",
+    "cuandoPedirlo": "Tamizaje preoperatorio, embarazo, conducta de riesgo."
+  },
+  {
+    "codigo": "INM005",
+    "nombre": "Hepatitis C (Anti-HCV)",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 55,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Anticuerpos contra el virus de hepatitis C.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta exposición al virus de hepatitis C.",
+    "cuandoPedirlo": "Tamizaje, antecedente de transfusiones."
+  },
+  {
+    "codigo": "MIC001",
+    "nombre": "Urocultivo + Antibiograma",
+    "categoria": "microbiologia",
+    "tipo": "analisis",
+    "precio": 60,
+    "tiempoEntrega": "72 horas",
+    "tags": ["mas-pedido"],
+    "descripcion": "Cultivo de orina con identificación de bacterias y sensibilidad antibiótica.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Higiene genital previa", "Primera orina de la mañana", "Chorro medio en frasco estéril"],
+      "muestra": "Orina",
+      "volumen": "20 mL",
+      "temperatura": "Refrigerado"
+    },
+    "paraQueSimple": "Identifica infección urinaria y el antibiótico ideal.",
+    "cuandoPedirlo": "Ardor al orinar, dolor lumbar, infecciones recurrentes."
+  },
+  {
+    "codigo": "MIC002",
+    "nombre": "Coprocultivo",
+    "categoria": "microbiologia",
+    "tipo": "analisis",
+    "precio": 65,
+    "tiempoEntrega": "72 horas",
+    "tags": [],
+    "descripcion": "Cultivo de heces para detectar bacterias patógenas.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin uso reciente de antibióticos", "Muestra fresca en frasco estéril"],
+      "muestra": "Heces",
+      "volumen": "5 g",
+      "temperatura": "Refrigerado"
+    },
+    "paraQueSimple": "Identifica bacterias causantes de diarrea.",
+    "cuandoPedirlo": "Diarrea persistente, fiebre, dolor abdominal."
+  },
+  {
+    "codigo": "PAR001",
+    "nombre": "Parasitológico Seriado (3 muestras)",
+    "categoria": "parasitologia",
+    "tipo": "analisis",
+    "precio": 35,
+    "tiempoEntrega": "48 horas",
+    "tags": ["mas-pedido"],
+    "descripcion": "Búsqueda de parásitos intestinales en tres muestras.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Recolectar muestras de 3 días distintos", "Frasco con conservante"],
+      "muestra": "Heces",
+      "volumen": "5 g por muestra",
+      "temperatura": "Ambiente con conservante"
+    },
+    "paraQueSimple": "Detecta lombrices y otros parásitos intestinales.",
+    "cuandoPedirlo": "Dolor abdominal, picor anal, niños con falta de apetito."
+  },
+  {
+    "codigo": "PAR002",
+    "nombre": "Test de Graham (Oxiuros)",
+    "categoria": "parasitologia",
+    "tipo": "analisis",
+    "precio": 25,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Detección de huevos de oxiuros en zona perianal.",
+    "preAnalitica": {
+      "ayuno": "No aplica",
+      "condiciones": ["Tomar la muestra al despertar antes de bañarse"],
+      "muestra": "Cinta adhesiva perianal",
+      "volumen": "1 lámina",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta el parásito oxiuro común en niños.",
+    "cuandoPedirlo": "Picor anal nocturno, sobre todo en niños."
+  },
+  {
+    "codigo": "BIO007",
+    "nombre": "Examen de Orina Completo",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 22,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["mas-pedido", "rapido"],
+    "descripcion": "Análisis físico, químico y sedimento urinario.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Higiene previa", "Primera orina de la mañana", "Chorro medio"],
+      "muestra": "Orina",
+      "volumen": "30 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta infecciones, diabetes, enfermedades renales.",
+    "cuandoPedirlo": "Chequeo general, síntomas urinarios."
+  },
+  {
+    "codigo": "HEM002",
+    "nombre": "Tiempo de Protrombina (TP / INR)",
+    "categoria": "hematologia",
+    "tipo": "analisis",
+    "precio": 30,
+    "tiempoEntrega": "Mismo día",
+    "tags": [],
+    "descripcion": "Evalúa la coagulación de la sangre.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Indicar uso de anticoagulantes"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Mide qué tan bien coagula tu sangre.",
+    "cuandoPedirlo": "Pre-quirúrgico, control de anticoagulantes."
+  },
+  {
+    "codigo": "HEM003",
+    "nombre": "Grupo Sanguíneo y Factor Rh",
+    "categoria": "hematologia",
+    "tipo": "analisis",
+    "precio": 18,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["rapido"],
+    "descripcion": "Determinación del grupo ABO y factor Rh.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Determina tu tipo de sangre.",
+    "cuandoPedirlo": "Embarazo, pre-quirúrgico, donación."
+  },
+  {
+    "codigo": "BIO008",
+    "nombre": "Vitamina D (25-OH)",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 95,
+    "tiempoEntrega": "48 horas",
+    "tags": ["nuevo"],
+    "descripcion": "Mide los niveles de vitamina D en sangre.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta deficiencia de vitamina D.",
+    "cuandoPedirlo": "Cansancio, dolor óseo, osteoporosis."
+  },
+  {
+    "codigo": "BIO009",
+    "nombre": "Vitamina B12",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 70,
+    "tiempoEntrega": "48 horas",
+    "tags": [],
+    "descripcion": "Nivel de cianocobalamina en sangre.",
+    "preAnalitica": {
+      "ayuno": "8 horas",
+      "condiciones": ["No tomar suplementos 24h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta anemia megaloblástica y deficiencias nutricionales.",
+    "cuandoPedirlo": "Cansancio, hormigueo, dieta vegetariana estricta."
+  },
+  {
+    "codigo": "BIO010",
+    "nombre": "Ferritina sérica",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 55,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Reserva de hierro en el organismo.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Evitar suplementos de hierro 24h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Evalúa tus reservas de hierro.",
+    "cuandoPedirlo": "Anemia, cansancio, mujeres con menstruación abundante."
+  },
+  {
+    "codigo": "INM006",
+    "nombre": "Marcador Tumoral CEA",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 75,
+    "tiempoEntrega": "48 horas",
+    "tags": [],
+    "descripcion": "Antígeno carcinoembrionario, marcador oncológico.",
+    "preAnalitica": {
+      "ayuno": "8 horas",
+      "condiciones": ["No fumar 24h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Apoyo al control oncológico.",
+    "cuandoPedirlo": "Seguimiento de cáncer colorrectal y otros."
+  },
+  {
+    "codigo": "INM007",
+    "nombre": "CA 125 (Marcador ovárico)",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 85,
+    "tiempoEntrega": "48 horas",
+    "tags": [],
+    "descripcion": "Marcador tumoral asociado a cáncer de ovario.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Evitar tomar muestra durante menstruación"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Apoyo al diagnóstico de cáncer ovárico.",
+    "cuandoPedirlo": "Antecedentes familiares, masa pélvica."
+  },
+  {
+    "codigo": "TOX001",
+    "nombre": "Dosaje de Plomo en sangre",
+    "categoria": "toxicologia",
+    "tipo": "analisis",
+    "precio": 90,
+    "tiempoEntrega": "72 horas",
+    "tags": [],
+    "descripcion": "Mide niveles de plomo, importante en exposición ocupacional.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Indicar lugar de trabajo y exposición"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Refrigerado"
+    },
+    "paraQueSimple": "Detecta intoxicación por plomo.",
+    "cuandoPedirlo": "Trabajadores de minería, baterías, soldadura, niños expuestos."
+  },
+  {
+    "codigo": "TOX002",
+    "nombre": "Drogas de Abuso (Panel 5)",
+    "categoria": "toxicologia",
+    "tipo": "analisis",
+    "precio": 80,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["rapido"],
+    "descripcion": "Detecta cocaína, marihuana, anfetaminas, opiáceos y benzodiazepinas.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Muestra de orina supervisada"],
+      "muestra": "Orina",
+      "volumen": "30 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Tamizaje toxicológico ocupacional.",
+    "cuandoPedirlo": "Exámenes pre-empleo, control ocupacional."
+  },
+  {
+    "codigo": "GEN001",
+    "nombre": "Test ADN Paternidad (3 personas)",
+    "categoria": "genetica",
+    "tipo": "analisis",
+    "precio": 480,
+    "tiempoEntrega": "10 días hábiles",
+    "tags": ["nuevo"],
+    "descripcion": "Análisis de ADN para confirmar relación de paternidad.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Documento de identidad obligatorio", "Toma con cadena de custodia opcional"],
+      "muestra": "Hisopado bucal",
+      "volumen": "2 hisopos por persona",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Confirma vínculo biológico padre-hijo.",
+    "cuandoPedirlo": "Trámites legales, tranquilidad familiar."
+  },
+  {
+    "codigo": "VAC001",
+    "nombre": "Vacuna contra la Influenza",
+    "categoria": "vacuna",
+    "tipo": "vacuna",
+    "precio": 75,
+    "tiempoEntrega": "Aplicación inmediata",
+    "tags": ["mas-pedido", "rapido"],
+    "descripcion": "Vacuna anual contra el virus de la gripe.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["No tener fiebre", "Sin alergia al huevo severa"],
+      "muestra": "No aplica",
+      "volumen": "Dosis 0.5 mL",
+      "temperatura": "No aplica"
+    },
+    "paraQueSimple": "Te protege contra la gripe estacional.",
+    "cuandoPedirlo": "Anualmente antes del invierno, todas las edades desde 6 meses."
+  },
+  {
+    "codigo": "VAC002",
+    "nombre": "Vacuna Fiebre Amarilla",
+    "categoria": "vacuna",
+    "tipo": "vacuna",
+    "precio": 110,
+    "tiempoEntrega": "Aplicación inmediata",
+    "tags": ["mas-pedido"],
+    "descripcion": "Requerida para viajar a zonas endémicas.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["No estar embarazada", "No inmunosuprimido", "Aplicar 10 días antes del viaje"],
+      "muestra": "No aplica",
+      "volumen": "Dosis 0.5 mL",
+      "temperatura": "No aplica"
+    },
+    "paraQueSimple": "Protege contra fiebre amarilla, exigida en muchos países.",
+    "cuandoPedirlo": "Viajes a Amazonía, África subsahariana, ciertos países de Latinoamérica."
+  },
+  {
+    "codigo": "VAC003",
+    "nombre": "Vacuna Hepatitis B (1 dosis)",
+    "categoria": "vacuna",
+    "tipo": "vacuna",
+    "precio": 85,
+    "tiempoEntrega": "Aplicación inmediata",
+    "tags": [],
+    "descripcion": "Esquema de 3 dosis. Esta es una dosis individual.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["No tener fiebre"],
+      "muestra": "No aplica",
+      "volumen": "Dosis 1 mL",
+      "temperatura": "No aplica"
+    },
+    "paraQueSimple": "Previene la hepatitis B y sus complicaciones.",
+    "cuandoPedirlo": "Personal de salud, recién nacidos, conducta de riesgo."
+  },
+  {
+    "codigo": "VAC004",
+    "nombre": "Vacuna VPH (Virus Papiloma Humano)",
+    "categoria": "vacuna",
+    "tipo": "vacuna",
+    "precio": 290,
+    "tiempoEntrega": "Aplicación inmediata",
+    "tags": ["nuevo"],
+    "descripcion": "Esquema completo de 3 dosis previene cáncer de cuello uterino.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Mayor de 9 años"],
+      "muestra": "No aplica",
+      "volumen": "Dosis 0.5 mL",
+      "temperatura": "No aplica"
+    },
+    "paraQueSimple": "Previene cánceres relacionados al VPH.",
+    "cuandoPedirlo": "Adolescentes y adultos jóvenes."
+  },
+  {
+    "codigo": "BIO011",
+    "nombre": "Ácido Úrico",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 18,
+    "tiempoEntrega": "Mismo día",
+    "tags": ["rapido"],
+    "descripcion": "Mide niveles de ácido úrico, marcador de gota.",
+    "preAnalitica": {
+      "ayuno": "8 horas",
+      "condiciones": ["Evitar carnes rojas y alcohol 48h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Detecta gota y problemas renales.",
+    "cuandoPedirlo": "Dolor articular en dedo gordo del pie, cálculos renales."
+  },
+  {
+    "codigo": "BIO012",
+    "nombre": "Calcio sérico",
+    "categoria": "bioquimica",
+    "tipo": "analisis",
+    "precio": 20,
+    "tiempoEntrega": "Mismo día",
+    "tags": [],
+    "descripcion": "Mide calcio en sangre.",
+    "preAnalitica": {
+      "ayuno": "8 horas",
+      "condiciones": ["No tomar suplementos 24h antes"],
+      "muestra": "Sangre venosa",
+      "volumen": "2 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Evalúa salud ósea y muscular.",
+    "cuandoPedirlo": "Osteoporosis, calambres, problemas paratiroideos."
+  },
+  {
+    "codigo": "INM008",
+    "nombre": "COVID-19 Anticuerpos Totales",
+    "categoria": "inmunologia",
+    "tipo": "analisis",
+    "precio": 65,
+    "tiempoEntrega": "24 horas",
+    "tags": [],
+    "descripcion": "Detecta anticuerpos IgG e IgM contra SARS-CoV-2.",
+    "preAnalitica": {
+      "ayuno": "No requiere",
+      "condiciones": ["Sin restricciones"],
+      "muestra": "Sangre venosa",
+      "volumen": "3 mL",
+      "temperatura": "Ambiente"
+    },
+    "paraQueSimple": "Verifica si tuviste COVID o respondiste a la vacuna.",
+    "cuandoPedirlo": "Post-infección, post-vacunación."
+  }
+]
