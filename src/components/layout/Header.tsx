@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ShoppingCart, Phone, ChevronRight } from 'lucide-react';
 import clsx from 'clsx';
 import { useQuoteStore } from '../../store/quoteStore';
+import logoUrl from '../../assets/logo_confialab.png';
 
 const NAV = [
   { to: '/', label: 'Inicio' },
@@ -72,16 +73,12 @@ export default function Header() {
       >
         <div className="container-x flex items-center justify-between gap-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand to-accent flex items-center justify-center text-white font-display font-bold text-lg shadow-card">
-              C
-            </div>
-            <div className="leading-tight">
-              <div className="font-display font-bold text-ink text-lg">
-                Confia<span className="text-accent">Lab</span>
-              </div>
-              <div className="text-[10px] text-muted -mt-0.5 font-medium tracking-wide">LABORATORIO CLÍNICO</div>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img
+              src={logoUrl}
+              alt="Confialab Laboratorio Clínico"
+              className="h-10 w-auto object-contain"
+            />
           </Link>
 
           {/* Nav desktop */}

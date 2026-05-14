@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, ShieldCheck, Award } from 'lucide-react';
+import logoUrl from '../../assets/logo_confialab.png';
 
 export default function Footer() {
   return (
@@ -7,16 +8,12 @@ export default function Footer() {
       <div className="container-x py-16 grid gap-10 md:grid-cols-4">
         {/* Brand */}
         <div className="space-y-4">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-accent to-brand-300 flex items-center justify-center text-white font-display font-bold text-lg">
-              C
-            </div>
-            <div>
-              <div className="font-display font-bold text-xl">
-                Confia<span className="text-accent-200">Lab</span>
-              </div>
-              <div className="text-[10px] text-white/60 -mt-0.5 tracking-widest">LABORATORIO CLÍNICO</div>
-            </div>
+          <div>
+            <img
+              src={logoUrl}
+              alt="Confialab Laboratorio Clínico"
+              className="h-10 w-auto object-contain brightness-0 invert"
+            />
           </div>
           <p className="text-white/70 text-sm leading-relaxed">
             El mejor valor predictivo es la prevención. Más de 1000 exámenes a tu disposición.
