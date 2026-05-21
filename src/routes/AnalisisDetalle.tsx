@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
@@ -11,9 +12,11 @@ import {
   AlertCircle,
   Stethoscope,
   GitCompareArrows,
+  CalendarDays,
 } from 'lucide-react';
 import Page from '../components/ui/Page';
 import TestCard from '../components/catalogo/TestCard';
+import AvailabilityCalendar from '../components/analisis/AvailabilityCalendar';
 import examenesData from '../data/examenes.json';
 import type { Examen } from '../types';
 import { useQuoteStore } from '../store/quoteStore';
@@ -29,6 +32,7 @@ export default function AnalisisDetalle() {
   const has = useQuoteStore((s) => s.has);
   const toggleCompare = useCompareStore((s) => s.toggle);
   const inCompare = useCompareStore((s) => s.has(examen?.codigo ?? ''));
+  const [showCalendar, setShowCalendar] = useState(false);
 
   if (!examen) return <NotFound />;
 
@@ -202,6 +206,12 @@ export default function AnalisisDetalle() {
                 Ver mi cotización
               </Link>
               <button
+                onClick={() => setShowCalendar(true)}
+                className="btn w-full px-6 py-3 bg-accent text-white hover:bg-accent-500 shadow-card"
+              >
+                <CalendarDays size={18} /> Ver disponibilidad
+              </button>
+              <button
                 onClick={() => toggleCompare(examen)}
                 className={`btn w-full px-6 py-3 ${
                   inCompare
@@ -220,6 +230,13 @@ export default function AnalisisDetalle() {
           </div>
         </aside>
       </section>
+
+      <AvailabilityCalendar
+        open={showCalendar}
+        onClose={() => setShowCalendar(false)}
+        examenNombre={examen.nombre}
+        examenCodigo={examen.codigo}
+      />
     </Page>
   );
 }

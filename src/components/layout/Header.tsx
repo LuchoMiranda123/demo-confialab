@@ -46,14 +46,12 @@ export default function Header() {
             <span className="text-white/80">Lun-Vie 7:00 - 19:00 · Sáb 7:00 - 13:00</span>
           </div>
           <div className="flex items-center gap-3">
-            <a
-              href="https://confialab.com/labresultado/login.php"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/resultados"
               className="hover:text-accent-200 transition"
             >
               Resultados en línea
-            </a>
+            </Link>
             <ChevronRight size={12} />
           </div>
         </div>

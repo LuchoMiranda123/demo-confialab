@@ -16,6 +16,7 @@ import Nosotros from './routes/Nosotros';
 import Blog from './routes/Blog';
 import BlogPost from './routes/BlogPost';
 import Contacto from './routes/Contacto';
+import Resultados from './routes/Resultados';
 import NotFound from './routes/NotFound';
 
 function AppRoutes() {
@@ -33,6 +34,7 @@ function AppRoutes() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/resultados" element={<Resultados />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>
